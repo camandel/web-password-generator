@@ -1,4 +1,2 @@
 language: go
-script: go get github.com/bmizerany/assert && go get github.com/camandel/password-generator && go test
-notifications:
-        email: false
+script: go get github.com/bmizerany/assert && go get github.com/camandel/web-password-generator && go test
