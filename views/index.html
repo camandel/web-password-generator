@@ -2,8 +2,13 @@
 <div class="jumbotron jumbotron-fluid">
    <div class="container">
       <div class="row">
-         <h1 class="display-4">Web Password Generator</h1>
-         <p class="lead">Simple web application to generate long and complex passwords</p>
+         <div class="col-sm-2">
+             <img src="/static/img/pin-code.svg" class="img-responsive center-block"/>
+         </div>
+         <div class="col-sm-10">
+            <h1 class="display-3">Web Password Generator</h1>
+            <p class="lead">Simple web application to generate long and complex passwords</p>
+         </div>
       </div>
    </div>
 </div>
@@ -47,9 +52,7 @@
 <br>
 <div class="jumbotron jumbotron-fluid">
    <div class="container">
-      <div class="row">
          <p class="lead">{{ .Password }}</p>
-      </div>
    </div>
 </div>
 {{ end }}
