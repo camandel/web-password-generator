@@ -1,0 +1,117 @@
+{
+	"ImportPath": "pwdgen",
+	"GoVersion": "go1.11",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/GeertJohan/go.rice",
+			"Rev": "c02ca9a983da5807ddf7d796784928f5be4afd09"
+		},
+		{
+			"ImportPath": "github.com/GeertJohan/go.rice/embedded",
+			"Rev": "c02ca9a983da5807ddf7d796784928f5be4afd09"
+		},
+		{
+			"ImportPath": "github.com/daaku/go.zipexe",
+			"Rev": "a5fe2436ffcb3236e175e5149162b41cd28bd27d"
+		},
+		{
+			"ImportPath": "github.com/davecgh/go-spew/spew",
+			"Comment": "v1.1.1-1-gd8f796a",
+			"Rev": "d8f796af33cc11cb798c1aaeb27a4ebc5099927d"
+		},
+		{
+			"ImportPath": "github.com/dgrijalva/jwt-go",
+			"Comment": "v3.2.0-4-g3af4c74",
+			"Rev": "3af4c746e1c248ee8491a3e0c6f7a9cd831e95f8"
+		},
+		{
+			"ImportPath": "github.com/foolin/echo-template",
+			"Rev": "23f7eb2c27826e6a01dd5c92883f02819f338fee"
+		},
+		{
+			"ImportPath": "github.com/foolin/echo-template/supports/gorice",
+			"Rev": "23f7eb2c27826e6a01dd5c92883f02819f338fee"
+		},
+		{
+			"ImportPath": "github.com/kardianos/osext",
+			"Rev": "ae77be60afb1dcacde03767a8c37337fad28ac14"
+		},
+		{
+			"ImportPath": "github.com/labstack/echo",
+			"Comment": "v3.3.4-59-ga8de73e",
+			"Rev": "a8de73efbeaebf0ff89fa3cb5727791b4f53a4e3"
+		},
+		{
+			"ImportPath": "github.com/labstack/echo/middleware",
+			"Comment": "v3.3.4-59-ga8de73e",
+			"Rev": "a8de73efbeaebf0ff89fa3cb5727791b4f53a4e3"
+		},
+		{
+			"ImportPath": "github.com/labstack/gommon/bytes",
+			"Comment": "v0.2.8",
+			"Rev": "7fd9f68ece0bcb1a905fac8f1549f0083f71c51b"
+		},
+		{
+			"ImportPath": "github.com/labstack/gommon/color",
+			"Comment": "v0.2.8",
+			"Rev": "7fd9f68ece0bcb1a905fac8f1549f0083f71c51b"
+		},
+		{
+			"ImportPath": "github.com/labstack/gommon/log",
+			"Comment": "v0.2.8",
+			"Rev": "7fd9f68ece0bcb1a905fac8f1549f0083f71c51b"
+		},
+		{
+			"ImportPath": "github.com/labstack/gommon/random",
+			"Comment": "v0.2.8",
+			"Rev": "7fd9f68ece0bcb1a905fac8f1549f0083f71c51b"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-colorable",
+			"Comment": "v0.0.9-14-gefa5899",
+			"Rev": "efa589957cd060542a26d2dd7832fd6a6c6c3ade"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-isatty",
+			"Comment": "v0.0.4-6-g3fb116b",
+			"Rev": "3fb116b820352b7f0c281308a4d6250c22d94e27"
+		},
+		{
+			"ImportPath": "github.com/pmezard/go-difflib/difflib",
+			"Comment": "v1.0.0",
+			"Rev": "792786c7400a136282c1664665ae0a8db921c6c2"
+		},
+		{
+			"ImportPath": "github.com/sethvargo/go-password/password",
+			"Comment": "v0.1.2-1-g68ac587",
+			"Rev": "68ac5879751a7105834296859f8c1bf70b064675"
+		},
+		{
+			"ImportPath": "github.com/stretchr/testify/assert",
+			"Comment": "v1.2.2-11-g8019298",
+			"Rev": "8019298d9fa5a04fc2ad10ae03349df3483096a6"
+		},
+		{
+			"ImportPath": "github.com/valyala/bytebufferpool",
+			"Comment": "v1.0.0-1-gcdfbe93",
+			"Rev": "cdfbe9377474227bb42120c1e22fd4433e7f69bf"
+		},
+		{
+			"ImportPath": "github.com/valyala/fasttemplate",
+			"Rev": "dcecefd839c4193db0d35b88ec65b4c12d360ab0"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/acme",
+			"Rev": "505ab145d0a99da450461ae2c1a9f6cd10d1f447"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/acme/autocert",
+			"Rev": "505ab145d0a99da450461ae2c1a9f6cd10d1f447"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "4ed8d59d0b35e1e29334a206d1b3f38b1e5dfb31"
+		}
+	]
+}

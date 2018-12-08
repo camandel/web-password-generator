@@ -1,0 +1,55 @@
+{{ define "content" }}
+<div class="jumbotron jumbotron-fluid">
+   <div class="container">
+      <div class="row">
+         <h1 class="display-4">Web Password Generator</h1>
+         <p class="lead">Simple web application to generate long and complex passwords</p>
+      </div>
+   </div>
+</div>
+<div class="container">
+   <form  action="/" method="POST">
+      <div class="row list-group-item">
+         <div class="col-sm-1">Length</div>
+         <div class="col-sm-11"><input id="ex1" name="length" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="96" data-slider-step="1" data-slider-value="{{ .Length }}"/></div>
+      </div>
+      <div class="row list-group-item">
+         <div class="col-sm-1">Digits</div>
+         <div class="col-sm-11"><input id="ex2" name="digits" data-slider-id='ex2Slider' type="text" data-slider-min="0" data-slider-max="96" data-slider-step="1" data-slider-value="{{ .Digits }}"/></div>
+      </div>
+      <div class="row list-group-item">
+         <div class="col-sm-1">Symbols</div>
+         <div class="col-sm-11"><input id="ex3" name="symbols" data-slider-id='ex3Slider' type="text" data-slider-min="0" data-slider-max="96" data-slider-step="1" data-slider-value="{{ .Symbols }}"/></div>
+      </div>
+      <div class="row list-group-item">
+         <div class="col-sm-3">Only lower case letters</div>
+         <div class="col-sm-9">
+            <div class="material-switch pull-left">
+               <input id="noupper" type="checkbox" name="noupper" {{if .NoUpper}}checked{{end}} />
+               <label for="noupper" class="label-primary"></label>
+            </div>
+         </div>
+      </div>
+      <div class="row list-group-item">
+         <div class="col-sm-3">Deny repeating characters</div>
+         <div class="col-sm-9">
+            <div class="material-switch pull-left">
+               <input id="denyrepeat" type="checkbox" name="denyrepeat" {{if .DenyRepeat}}checked{{end}}>
+               <label for="denyrepeat" class="label-primary"></label>
+            </div>
+         </div>
+      </div>
+      <br>
+      <br>
+      <button type="submit" class="btn btn-primary">Generate Password</button>
+   </form>
+</div>
+<br>
+<div class="jumbotron jumbotron-fluid">
+   <div class="container">
+      <div class="row">
+         <p class="lead">{{ .Password }}</p>
+      </div>
+   </div>
+</div>
+{{ end }}
