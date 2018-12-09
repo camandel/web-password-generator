@@ -1,7 +1,7 @@
 # Web Password Generator
 Simple web application to generate long and complex passwords 
 ![screenshot](../assets/screenshot.jpg/?raw=true)
-## Installation
+## Build from source
 ```
 git clone https://github.com/camandel/web-password-generator.git
 cd web-password-generator
@@ -9,7 +9,11 @@ go get github.com/GeertJohan/go.rice/rice
 rice embed-go 
 go build .
 ```
-## Run
+## Run with Docker image
+```
+docker run --rm -p 8080:8080 camandel/web-password-generator
+```
+## Run from CLI
 ```
 $ web-password-generator --help
 Usage of web-password-generator:
@@ -22,5 +26,3 @@ Usage of web-password-generator:
   -symbols int
     	Specify the the number of symbols in the password (default 16)
 ```
-## Docker
-TODO
