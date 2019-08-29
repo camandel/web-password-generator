@@ -12,4 +12,5 @@ RUN apk add git && \
 FROM alpine:3.8
 COPY --from=build /go/bin/web-password-generator /go/bin/web-password-generator
 
+EXPOSE 8080
 ENTRYPOINT ["/go/bin/web-password-generator"]
